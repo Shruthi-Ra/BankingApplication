@@ -21,7 +21,7 @@ float bal;
 do
 {
 
-42
+
 
 clrscr();
 fflush(stdin);
@@ -70,7 +70,7 @@ for(pos1=ftell(fp);fread(&acc,sizeof(acc),1,fp)==1;pos1=ftell(fp))
 if(strcmp(acc.no,ano)==0)
 {
 
-43
+
 
 printf("\nEnter the Type 1 for deposit & 2 for withdraw : ");
 scanf("%d",&type);
@@ -116,7 +116,6 @@ bal = atof(acc.balance);
 if(bal<MINBAL)
 flag++;
 
-44
 
 }
 printf("\nThe Number of Account Holder whose Balance less than the Minimum Balance :
